@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A4EF27D607C8F8692B9971B /* Pods_IdillikaMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7EA45662A6259AD64E1B632 /* Pods_IdillikaMVP.framework */; };
 		AB252BEB24DAC35800CCDA67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB252BEA24DAC35800CCDA67 /* AppDelegate.swift */; };
 		AB252BED24DAC35800CCDA67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB252BEC24DAC35800CCDA67 /* SceneDelegate.swift */; };
-		AB252BEF24DAC35800CCDA67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB252BEE24DAC35800CCDA67 /* ViewController.swift */; };
+		AB252BEF24DAC35800CCDA67 /* CatalogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB252BEE24DAC35800CCDA67 /* CatalogVC.swift */; };
 		AB252BF224DAC35800CCDA67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB252BF024DAC35800CCDA67 /* Main.storyboard */; };
 		AB252BF424DAC35C00CCDA67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB252BF324DAC35C00CCDA67 /* Assets.xcassets */; };
 		AB252BF724DAC35C00CCDA67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB252BF524DAC35C00CCDA67 /* LaunchScreen.storyboard */; };
+		AB252C0424DAC85E00CCDA67 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB252C0324DAC85E00CCDA67 /* NetworkService.swift */; };
+		AB252C0724DAC8A800CCDA67 /* UserDefauls.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB252C0624DAC8A800CCDA67 /* UserDefauls.swift */; };
+		AB252C1024DAC96B00CCDA67 /* CatalogItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB252C0F24DAC96B00CCDA67 /* CatalogItems.swift */; };
+		AB252C1224DAC9D800CCDA67 /* CatalogPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB252C1124DAC9D800CCDA67 /* CatalogPresenter.swift */; };
+		AB252C1424DAE8E000CCDA67 /* CatalogCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB252C1324DAE8E000CCDA67 /* CatalogCollectionViewCell.swift */; };
+		AB252C1C24DAF05100CCDA67 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB252C1B24DAF05100CCDA67 /* HomeVC.swift */; };
+		AB252C1E24DAF05D00CCDA67 /* BagVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB252C1D24DAF05D00CCDA67 /* BagVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A1F52B5AEF452EE0EA5D00D /* Pods-IdillikaMVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdillikaMVP.release.xcconfig"; path = "Target Support Files/Pods-IdillikaMVP/Pods-IdillikaMVP.release.xcconfig"; sourceTree = "<group>"; };
+		A7EA45662A6259AD64E1B632 /* Pods_IdillikaMVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdillikaMVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB252BE724DAC35800CCDA67 /* IdillikaMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdillikaMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB252BEA24DAC35800CCDA67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB252BEC24DAC35800CCDA67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB252BEE24DAC35800CCDA67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB252BEE24DAC35800CCDA67 /* CatalogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogVC.swift; sourceTree = "<group>"; };
 		AB252BF124DAC35800CCDA67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB252BF324DAC35C00CCDA67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB252BF624DAC35C00CCDA67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB252BF824DAC35C00CCDA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB252C0324DAC85E00CCDA67 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		AB252C0624DAC8A800CCDA67 /* UserDefauls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefauls.swift; sourceTree = "<group>"; };
+		AB252C0F24DAC96B00CCDA67 /* CatalogItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogItems.swift; sourceTree = "<group>"; };
+		AB252C1124DAC9D800CCDA67 /* CatalogPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPresenter.swift; sourceTree = "<group>"; };
+		AB252C1324DAE8E000CCDA67 /* CatalogCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogCollectionViewCell.swift; sourceTree = "<group>"; };
+		AB252C1B24DAF05100CCDA67 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		AB252C1D24DAF05D00CCDA67 /* BagVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagVC.swift; sourceTree = "<group>"; };
+		FC360A4854573416FCE11764 /* Pods-IdillikaMVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdillikaMVP.debug.xcconfig"; path = "Target Support Files/Pods-IdillikaMVP/Pods-IdillikaMVP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A4EF27D607C8F8692B9971B /* Pods_IdillikaMVP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		631133ABE411470D30096A81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7EA45662A6259AD64E1B632 /* Pods_IdillikaMVP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82D8DF8551AB595D8A55E81C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC360A4854573416FCE11764 /* Pods-IdillikaMVP.debug.xcconfig */,
+				3A1F52B5AEF452EE0EA5D00D /* Pods-IdillikaMVP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AB252BDE24DAC35800CCDA67 = {
 			isa = PBXGroup;
 			children = (
 				AB252BE924DAC35800CCDA67 /* IdillikaMVP */,
 				AB252BE824DAC35800CCDA67 /* Products */,
+				82D8DF8551AB595D8A55E81C /* Pods */,
+				631133ABE411470D30096A81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,126 @@
 		AB252BE924DAC35800CCDA67 /* IdillikaMVP */ = {
 			isa = PBXGroup;
 			children = (
+				AB252C1624DAF00200CCDA67 /* BagModule */,
+				AB252C1524DAEFEF00CCDA67 /* HomeModule */,
+				AB252C0824DAC8C000CCDA67 /* CatalogModule */,
+				AB252C0524DAC88C00CCDA67 /* UserDefauls */,
+				AB252C0224DAC83800CCDA67 /* ServiceLayer */,
 				AB252BEA24DAC35800CCDA67 /* AppDelegate.swift */,
 				AB252BEC24DAC35800CCDA67 /* SceneDelegate.swift */,
-				AB252BEE24DAC35800CCDA67 /* ViewController.swift */,
 				AB252BF024DAC35800CCDA67 /* Main.storyboard */,
 				AB252BF324DAC35C00CCDA67 /* Assets.xcassets */,
 				AB252BF524DAC35C00CCDA67 /* LaunchScreen.storyboard */,
 				AB252BF824DAC35C00CCDA67 /* Info.plist */,
 			);
 			path = IdillikaMVP;
+			sourceTree = "<group>";
+		};
+		AB252C0224DAC83800CCDA67 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				AB252C0324DAC85E00CCDA67 /* NetworkService.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		AB252C0524DAC88C00CCDA67 /* UserDefauls */ = {
+			isa = PBXGroup;
+			children = (
+				AB252C0624DAC8A800CCDA67 /* UserDefauls.swift */,
+			);
+			path = UserDefauls;
+			sourceTree = "<group>";
+		};
+		AB252C0824DAC8C000CCDA67 /* CatalogModule */ = {
+			isa = PBXGroup;
+			children = (
+				AB252C0B24DAC8FC00CCDA67 /* MVP */,
+			);
+			path = CatalogModule;
+			sourceTree = "<group>";
+		};
+		AB252C0B24DAC8FC00CCDA67 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				AB252C0E24DAC93F00CCDA67 /* CatalogModel */,
+				AB252C0D24DAC92500CCDA67 /* CatalogView */,
+				AB252C0C24DAC90E00CCDA67 /* CatalogPresenter */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		AB252C0C24DAC90E00CCDA67 /* CatalogPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				AB252C1124DAC9D800CCDA67 /* CatalogPresenter.swift */,
+			);
+			path = CatalogPresenter;
+			sourceTree = "<group>";
+		};
+		AB252C0D24DAC92500CCDA67 /* CatalogView */ = {
+			isa = PBXGroup;
+			children = (
+				AB252BEE24DAC35800CCDA67 /* CatalogVC.swift */,
+				AB252C1324DAE8E000CCDA67 /* CatalogCollectionViewCell.swift */,
+			);
+			path = CatalogView;
+			sourceTree = "<group>";
+		};
+		AB252C0E24DAC93F00CCDA67 /* CatalogModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB252C0F24DAC96B00CCDA67 /* CatalogItems.swift */,
+			);
+			path = CatalogModel;
+			sourceTree = "<group>";
+		};
+		AB252C1524DAEFEF00CCDA67 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				AB252C1724DAF01200CCDA67 /* MVP */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		AB252C1624DAF00200CCDA67 /* BagModule */ = {
+			isa = PBXGroup;
+			children = (
+				AB252C1924DAF02100CCDA67 /* MVP */,
+			);
+			path = BagModule;
+			sourceTree = "<group>";
+		};
+		AB252C1724DAF01200CCDA67 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				AB252C1824DAF01900CCDA67 /* BagView */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		AB252C1824DAF01900CCDA67 /* BagView */ = {
+			isa = PBXGroup;
+			children = (
+				AB252C1B24DAF05100CCDA67 /* HomeVC.swift */,
+			);
+			path = BagView;
+			sourceTree = "<group>";
+		};
+		AB252C1924DAF02100CCDA67 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				AB252C1A24DAF02700CCDA67 /* BagView */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		AB252C1A24DAF02700CCDA67 /* BagView */ = {
+			isa = PBXGroup;
+			children = (
+				AB252C1D24DAF05D00CCDA67 /* BagVC.swift */,
+			);
+			path = BagView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB252BFB24DAC35C00CCDA67 /* Build configuration list for PBXNativeTarget "IdillikaMVP" */;
 			buildPhases = (
+				1E6F094E8E3E6650223B193B /* [CP] Check Pods Manifest.lock */,
 				AB252BE324DAC35800CCDA67 /* Sources */,
 				AB252BE424DAC35800CCDA67 /* Frameworks */,
 				AB252BE524DAC35800CCDA67 /* Resources */,
+				ACBAC55D9D3B98012154812E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +284,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E6F094E8E3E6650223B193B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IdillikaMVP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACBAC55D9D3B98012154812E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IdillikaMVP/Pods-IdillikaMVP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IdillikaMVP/Pods-IdillikaMVP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IdillikaMVP/Pods-IdillikaMVP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB252BE324DAC35800CCDA67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB252BEF24DAC35800CCDA67 /* ViewController.swift in Sources */,
+				AB252C1024DAC96B00CCDA67 /* CatalogItems.swift in Sources */,
+				AB252BEF24DAC35800CCDA67 /* CatalogVC.swift in Sources */,
 				AB252BEB24DAC35800CCDA67 /* AppDelegate.swift in Sources */,
+				AB252C1C24DAF05100CCDA67 /* HomeVC.swift in Sources */,
+				AB252C0724DAC8A800CCDA67 /* UserDefauls.swift in Sources */,
+				AB252C1424DAE8E000CCDA67 /* CatalogCollectionViewCell.swift in Sources */,
+				AB252C0424DAC85E00CCDA67 /* NetworkService.swift in Sources */,
+				AB252C1E24DAF05D00CCDA67 /* BagVC.swift in Sources */,
+				AB252C1224DAC9D800CCDA67 /* CatalogPresenter.swift in Sources */,
 				AB252BED24DAC35800CCDA67 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +482,7 @@
 		};
 		AB252BFC24DAC35C00CCDA67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC360A4854573416FCE11764 /* Pods-IdillikaMVP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +500,7 @@
 		};
 		AB252BFD24DAC35C00CCDA67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1F52B5AEF452EE0EA5D00D /* Pods-IdillikaMVP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
